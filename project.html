@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Scholarship Management System</title>
+</head>
+<body>
+
+    <h1>Student Scholarship Management System</h1>
+    <hr>
+
+    <h2>Welcome, Student!</h2>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#scholarships">Scholarships</a> |
+        <a href="#apply">Apply Now</a> |
+        <a href="#status">Application Status</a>
+    </nav>
+
+    <hr>
+
+    <h2 id="scholarships">Available Scholarships</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Scholarship Name</th>
+            <th>Amount</th>
+            <th>Eligibility</th>
+        </tr>
+        <tr>
+            <td>Merit Scholarship</td>
+            <td>₹10,000</td>
+            <td>Above 80% marks</td>
+        </tr>
+        <tr>
+            <td>Need-Based Scholarship</td>
+            <td>₹15,000</td>
+            <td>Low-income students</td>
+        </tr>
+        <tr>
+            <td>Government Scholarship</td>
+            <td>₹20,000</td>
+            <td>Eligible students</td>
+        </tr>
+    </table>
+
+    <h2 id="apply">Scholarship Application Form</h2>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label>Register Number:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required>
+        <br><br>
+
+        <label>Course:</label>
+        <select>
+            <option>B.E. Computer Science</option>
+            <option>B.E. Electronics</option>
+            <option>B.Tech Information Technology</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <label>Scholarship:</label>
+        <select>
+            <option>Merit Scholarship</option>
+            <option>Need-Based Scholarship</option>
+            <option>Government Scholarship</option>
+        </select>
+        <br><br>
+
+        <label>Upload Marksheet:</label>
+        <input type="file">
+        <br><br>
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <h2 id="status">Application Status</h2>
+    <p>Status: Not Submitted</p>
+
+    <hr>
+    <p>© 2026 Student Scholarship Management System</p>
+
+</body>
+</html>
